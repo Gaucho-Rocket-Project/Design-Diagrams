@@ -1,3 +1,3 @@
 # Design-Diagrams Usage:
 
-[Collaborate on]([url](https://app.diagrams.net/))
+[Collaborate on](https://app.diagrams.net/)
