@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dnsZEXKuAd3jxEYmoXIa-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="540" width="590" x="265" y="936" as="geometry" />
-        </mxCell>
         <mxCell id="u-MaMD3fbFbareepJvIZ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="1760" width="2085" x="1275" y="1110" as="geometry" />
         </mxCell>
@@ -237,6 +234,9 @@
             <mxGeometry height="152" width="191" x="2125" y="676.5" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="dnsZEXKuAd3jxEYmoXIa-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="540" width="590" x="265" y="936" as="geometry" />
+        </mxCell>
         <mxCell id="dnsZEXKuAd3jxEYmoXIa-2" parent="1" style="shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;strokeWidth=2;html=1;whiteSpace=wrap;align=center;" value="Firmware" vertex="1">
           <mxGeometry height="90" width="160" x="265" y="916" as="geometry" />
         </mxCell>
@@ -351,7 +351,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WurdK-OwDDZA5CG90OMi" name="Propulsion, actuators (TODO)">
-    <mxGraphModel dx="1372" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
