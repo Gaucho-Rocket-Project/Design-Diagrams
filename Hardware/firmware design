@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" pages="7">
   <diagram name="Design overview" id="HYnQSuLmimXBcVoQBz_I">
-    <mxGraphModel dx="4573" dy="3083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="6533" dy="4405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H0-19AQzsq80EbfD2-C1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="2680" width="3950" x="1280" y="5140" as="geometry" />
+        </mxCell>
         <mxCell id="rAXHUwlxIXdusu5dnmzi-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="1760" width="2545" x="1275" y="3020" as="geometry" />
+          <mxGeometry height="1760" width="2545" x="1275" y="3030" as="geometry" />
         </mxCell>
         <mxCell id="u-MaMD3fbFbareepJvIZ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="1760" width="2085" x="1275" y="1110" as="geometry" />
@@ -656,7 +659,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="03z7qS6BstVAG2a4NXnQ-36" connectable="0" parent="03z7qS6BstVAG2a4NXnQ-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="in: servo/ignition/fill, out: telemetry, location" vertex="1">
+        <mxCell id="03z7qS6BstVAG2a4NXnQ-36" connectable="0" parent="03z7qS6BstVAG2a4NXnQ-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="in: servo/ignition/fill" vertex="1">
           <mxGeometry relative="1" x="-0.1382" y="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -706,9 +709,6 @@
             <mxGeometry height="38.8" width="32.4" x="1920" y="5410.6" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="H0-19AQzsq80EbfD2-C1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="2680" width="3950" x="1280" y="5140" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
