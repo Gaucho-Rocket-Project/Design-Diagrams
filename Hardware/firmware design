@@ -596,7 +596,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="03z7qS6BstVAG2a4NXnQ-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="03z7qS6BstVAG2a4NXnQ-22">
+        <mxCell id="03z7qS6BstVAG2a4NXnQ-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3689.5200000000004" y="6309" as="sourcePoint" />
           </mxGeometry>
@@ -787,7 +787,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WurdK-OwDDZA5CG90OMi" name="Propulsion, actuators (TODO)">
-    <mxGraphModel dx="3768" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2863" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1393,25 +1393,7 @@
         <mxCell id="c130" parent="1" style="ellipse;strokeColor=none;fillColor=light-dark(#C084FC,#C084FC);" value="" vertex="1">
           <mxGeometry height="10" width="10" x="1140" y="845" as="geometry" />
         </mxCell>
-        <mxCell id="c131" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#F0922B,#F0922B);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;HP pressurant to Fuel tank&lt;/b&gt;&lt;br&gt;1/4 in NPT&lt;br&gt;P: 1000 psi · T: 20 °C" vertex="1">
-          <mxGeometry height="50" width="150" x="1175" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="c132" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1175" y="235" as="sourcePoint" />
-            <mxPoint x="1147" y="235" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c133" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#F0922B,#F0922B);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Tank pressurization branch&lt;/b&gt;&lt;br&gt;1/4 in NPT&lt;br&gt;P: 1000 psi · T: 20 °C" vertex="1">
-          <mxGeometry height="50" width="150" x="1260" y="292" as="geometry" />
-        </mxCell>
-        <mxCell id="c134" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1277" y="342" as="sourcePoint" />
-            <mxPoint x="1277" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c135" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel tank&lt;/b&gt;&lt;br&gt;V: ____ L · MEOP: 1000 psi&lt;br&gt;T: 20 °C&lt;br&gt;Notes:" vertex="1">
+        <mxCell id="c135" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel tank&lt;/b&gt;&lt;br&gt;V:&amp;nbsp; L · MEOP: 1000 psi&lt;br&gt;T: 20 °C&lt;br&gt;Notes:" vertex="1">
           <mxGeometry height="62" width="170" x="1375" y="130" as="geometry" />
         </mxCell>
         <mxCell id="c136" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Vent line (x2)&lt;/b&gt;&lt;br&gt;1/8 in NPT&lt;br&gt;P: 1000 psi" vertex="1">
@@ -1423,16 +1405,13 @@
             <mxPoint x="1455" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c138" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#6CB4EE,#6CB4EE);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;From GSE (Fuel)&lt;/b&gt;&lt;br&gt;1/2 in NPT&lt;br&gt;P: ____ psi&lt;br&gt;T: ____ °F&lt;br&gt;State: ____" vertex="1">
-          <mxGeometry height="86" width="112" x="1025" y="635" as="geometry" />
-        </mxCell>
         <mxCell id="c139" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1075" y="721" as="sourcePoint" />
             <mxPoint x="1075" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c140" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#C084FC,#C084FC);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel feed to engine&lt;/b&gt;&lt;br&gt;Fuel · 1/2 in NPT&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
+        <mxCell id="c140" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#C084FC,#C084FC);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel feed to engine&lt;/b&gt;&lt;br&gt;Fuel · 1/2 in NPT&lt;br&gt;P: 1000 psi · T: 20 °C&lt;br&gt;State: Subcooled" vertex="1">
           <mxGeometry height="76" width="200" x="1345" y="745" as="geometry" />
         </mxCell>
         <mxCell id="c141" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
@@ -1757,29 +1736,8 @@
         <mxCell id="c202" parent="1" style="ellipse;strokeColor=none;fillColor=light-dark(#4F5BFF,#4F5BFF);" value="" vertex="1">
           <mxGeometry height="10" width="10" x="1710" y="845" as="geometry" />
         </mxCell>
-        <mxCell id="c203" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#F0922B,#F0922B);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;HP pressurant to Ox tank&lt;/b&gt;&lt;br&gt;Gas: ____ · 1/4 in NPT&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
-          <mxGeometry height="62" width="190" x="1745" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="c204" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1745" y="235" as="sourcePoint" />
-            <mxPoint x="1717" y="235" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c205" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#F0922B,#F0922B);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Tank pressurization branch&lt;/b&gt;&lt;br&gt;Gas: ____ · 1/4 in NPT&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
-          <mxGeometry height="62" width="205" x="1825" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="c206" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1847" y="342" as="sourcePoint" />
-            <mxPoint x="1847" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c207" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Ox tank&lt;/b&gt;&lt;br&gt;V: ____ L · MEOP: ____ psi&lt;br&gt;Fill: ____ % · T: ____ °F&lt;br&gt;Notes: ____" vertex="1">
+        <mxCell id="c207" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Ox tank&lt;/b&gt;&lt;br&gt;V: L · MEOP: 1000 psi&lt;br&gt;Fill: 95 % · T: 10 °C&lt;br&gt;Notes:" vertex="1">
           <mxGeometry height="62" width="170" x="1945" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="c210" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#6CB4EE,#6CB4EE);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;From GSE (N2O)&lt;/b&gt;&lt;br&gt;1/2 in NPT&lt;br&gt;P: ____ psi&lt;br&gt;T: ____ °F&lt;br&gt;State: ____" vertex="1">
-          <mxGeometry height="86" width="112" x="1595" y="635" as="geometry" />
         </mxCell>
         <mxCell id="c211" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
           <mxGeometry relative="1" as="geometry">
@@ -1787,22 +1745,13 @@
             <mxPoint x="1645" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c212" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#4F5BFF,#4F5BFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Ox feed to engine&lt;/b&gt;&lt;br&gt;N2O · 3/4 in NPT&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
+        <mxCell id="c212" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#4F5BFF,#4F5BFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Ox feed to engine&lt;/b&gt;&lt;br&gt;N2O · 3/4 in NPT&lt;br&gt;P: 1000 psi · T: 10 °C&lt;br&gt;State: Subcooled" vertex="1">
           <mxGeometry height="76" width="200" x="1915" y="745" as="geometry" />
         </mxCell>
         <mxCell id="c213" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1915" y="790" as="sourcePoint" />
             <mxPoint x="1887" y="790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c214" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#C084FC,#C084FC);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel feed to engine (passes through)&lt;/b&gt;&lt;br&gt;1/2 in NPT · see Fuel zone" vertex="1">
-          <mxGeometry height="50" width="270" x="1645" y="1034" as="geometry" />
-        </mxCell>
-        <mxCell id="c215" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1775" y="1034" as="sourcePoint" />
-            <mxPoint x="1775" y="1012" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c216" edge="1" parent="1" style="endArrow=classic;endFill=1;endSize=5.7;html=1;rounded=0;strokeColor=light-dark(#6CB4EE,#6CB4EE);strokeWidth=5.3;">
@@ -1946,7 +1895,7 @@
         <mxCell id="c242" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1.5;fillColor=light-dark(#121212,#121212);" value="Injector &amp;&#xa;Combustion&#xa;Chamber" vertex="1">
           <mxGeometry height="200" width="170" x="2225" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="c243" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Engine&lt;/b&gt;&lt;br&gt;Thrust: ____ lbf · Pc: ____ psi&lt;br&gt;O/F: ____ · Isp: ____ s&lt;br&gt;Notes: ____" vertex="1">
+        <mxCell id="c243" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Engine&lt;/b&gt;&lt;br&gt;Thrust: 3 kN · Pc_max: 400 psi&lt;br&gt;O/F: 2.1&lt;br&gt;Notes:" vertex="1">
           <mxGeometry height="62" width="260" x="2180" y="750" as="geometry" />
         </mxCell>
         <mxCell id="c244" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
@@ -2764,8 +2713,8 @@
         <mxCell id="c425" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="" vertex="1">
           <mxGeometry height="176" width="380" x="1565" y="1708.5" as="geometry" />
         </mxCell>
-        <mxCell id="c426" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#F0922B,#F0922B);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;N2 pressurant line&lt;/b&gt;&lt;br&gt;Gas: N2 · Line: ____&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
-          <mxGeometry height="62" width="200" x="719" y="1759.8" as="geometry" />
+        <mxCell id="c426" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#F0922B,#F0922B);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;N2 pressurant line&lt;/b&gt;&lt;br&gt;Gas: N2&lt;br&gt;P: 500-1000 psi · T: 20 °C" vertex="1">
+          <mxGeometry height="52.2" width="200" x="719" y="1759.8" as="geometry" />
         </mxCell>
         <mxCell id="c427" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
           <mxGeometry relative="1" as="geometry">
@@ -2773,7 +2722,7 @@
             <mxPoint x="755" y="1741.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c428" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#4F5BFF,#4F5BFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;N2O feed to engine&lt;/b&gt;&lt;br&gt;N2O · Line: ____&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
+        <mxCell id="c428" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#4F5BFF,#4F5BFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;N2O feed to engine&lt;/b&gt;&lt;br&gt;N2O&lt;br&gt;P: ~500 psi · T: 10 °C&lt;br&gt;State: Subcooled" vertex="1">
           <mxGeometry height="62" width="180" x="656" y="2505" as="geometry" />
         </mxCell>
         <mxCell id="c429" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
@@ -2782,7 +2731,7 @@
             <mxPoint x="710" y="2448.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c430" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#C084FC,#C084FC);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel feed to engine&lt;/b&gt;&lt;br&gt;Fuel: ____ · Line: ____&lt;br&gt;P: ____ psi · T: ____ °F&lt;br&gt;State: ____" vertex="1">
+        <mxCell id="c430" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#C084FC,#C084FC);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Fuel feed to engine&lt;/b&gt;&lt;br&gt;Fuel: IPA&lt;br&gt;P: Ox pressure · T: 20 °C&lt;br&gt;State:" vertex="1">
           <mxGeometry height="62" width="175" x="1124" y="2316" as="geometry" />
         </mxCell>
         <mxCell id="c431" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
@@ -2791,7 +2740,7 @@
             <mxPoint x="1187.9" y="2268.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c432" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Engine&lt;/b&gt;&lt;br&gt;Thrust: ____ lbf · Pc: ____ psi&lt;br&gt;O/F: ____&lt;br&gt;Notes: ____" vertex="1">
+        <mxCell id="c432" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=3;spacingRight=4;rounded=1;arcSize=6;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;fillColor=light-dark(#1E1E1E,#1E1E1E);" value="&lt;b&gt;Engine&lt;/b&gt;&lt;br&gt;Thrust: ~1 kN · Pc: 250 psi&lt;br&gt;O/F: 3.5&lt;br&gt;Notes:" vertex="1">
           <mxGeometry height="62" width="200" x="1412" y="2568" as="geometry" />
         </mxCell>
         <mxCell id="c433" edge="1" parent="1" style="endArrow=none;endFill=1;endSize=10;html=1;rounded=0;strokeColor=light-dark(#8A8A8A,#8A8A8A);strokeWidth=1;dashed=1;dashPattern=3 3;">
@@ -2868,9 +2817,6 @@
         </mxCell>
         <mxCell id="c450" parent="1" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" value="CO (orifice)" vertex="1">
           <mxGeometry height="28" width="185" x="233" y="2560" as="geometry" />
-        </mxCell>
-        <mxCell id="c451" parent="1" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=10;fontColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" value="Valve, sensor (P = PT, T = Type K), regulator and QD symbols as in the main legend. Line sizes were not specified for this stand: all lines drawn at 1/4 in weight." vertex="1">
-          <mxGeometry height="70" width="260" x="161" y="2606" as="geometry" />
         </mxCell>
         <mxCell id="yl67SmJRz9roplKR30m6-1" parent="1" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=15;fontColor=light-dark(#FFFFFF,#FFFFFF);fontStyle=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" value="Halo" vertex="1">
           <mxGeometry height="26" width="2352" x="85" y="64" as="geometry" />
@@ -2979,7 +2925,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hKebPN0wMaA2zjiZAL6J" name="PCB">
-    <mxGraphModel dx="1747" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
