@@ -874,6 +874,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="0Hxg2IK9GIMIcO1OpS9T-2" edge="1" parent="1" source="kEbHzRlDov9pDvUz8sxc-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;curved=1;curveGeometry=1;" target="0Hxg2IK9GIMIcO1OpS9T-1">
+          <mxGeometry relative="1" x="-0.063" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="570" />
+              <mxPoint x="767" y="516.3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kEbHzRlDov9pDvUz8sxc-64" parent="1" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=#36393d;fillColor=#ffff88;fontStyle=0" value="LiDAR (downwards)" vertex="1">
           <mxGeometry height="51.5" width="116.99999999999999" x="557" y="558.86" as="geometry" />
         </mxCell>
@@ -1202,6 +1210,9 @@
         </mxCell>
         <mxCell id="sVp5UvqZVG5GyK6_Y1V--100" parent="1" style="part=1;fillColor=none;strokeColor=none;align=left;fontSize=10;fontColor=#556B82;" value="GSE/COMMS" vertex="1">
           <mxGeometry height="50.13636363636364" width="90" x="-270" y="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0Hxg2IK9GIMIcO1OpS9T-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" value="&lt;div&gt;&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(18, 18, 18), rgb(18, 18, 18));&quot;&gt;*TBD if needed&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152.5" width="210" x="860" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
