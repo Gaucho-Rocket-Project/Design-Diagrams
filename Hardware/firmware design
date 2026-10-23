@@ -1,17 +1,19 @@
 <mxfile host="app.diagrams.net" pages="9">
   <diagram name="Design overview" id="HYnQSuLmimXBcVoQBz_I">
-    <mxGraphModel dx="4236" dy="2700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="5900" dy="3761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <UserObject label="" link="https://github.com/Gaucho-Rocket-Project/GSE_Comms" linkTarget="_blank" id="Vj3Kcwtkh6dNdEfZSoiL-7">
+        <UserObject label="" linkTarget="_blank" id="Vj3Kcwtkh6dNdEfZSoiL-7">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1">
             <mxGeometry height="2846.75" width="4375" x="1275" y="3030" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="H0-19AQzsq80EbfD2-C1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="2680" width="3950" x="1275" y="6620" as="geometry" />
-        </mxCell>
+        <UserObject label="" link="https://github.com/Gaucho-Rocket-Project/GSE_Comms" linkTarget="_blank" id="H0-19AQzsq80EbfD2-C1-1">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1">
+            <mxGeometry height="2680" width="3950" x="1275" y="6620" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="u-MaMD3fbFbareepJvIZ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="1760" width="2085" x="1275" y="1110" as="geometry" />
         </mxCell>
