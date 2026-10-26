@@ -354,14 +354,6 @@
             <mxGeometry height="30" width="200" x="2327.5" y="4641" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="cftk4s9rUOMCTSGgCohw-7" edge="1" parent="1" source="03z7qS6BstVAG2a4NXnQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="q4KBg5Ptn7Q9QitBtlF6-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cftk4s9rUOMCTSGgCohw-8" connectable="0" parent="cftk4s9rUOMCTSGgCohw-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="USB-C to Micro USB" vertex="1">
-          <mxGeometry relative="1" x="-0.0621" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="03z7qS6BstVAG2a4NXnQ-1" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.laptop;network2IconW=1;network2IconH=0.5734;" value="Ground Station" vertex="1">
           <mxGeometry height="200" width="348.8" x="3240" y="3479.5" as="geometry" />
         </mxCell>
@@ -517,6 +509,14 @@
             <mxGeometry height="38.8" width="32.4" x="1915" y="3330.6000000000004" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="cftk4s9rUOMCTSGgCohw-7" edge="1" parent="1" source="03z7qS6BstVAG2a4NXnQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="q4KBg5Ptn7Q9QitBtlF6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cftk4s9rUOMCTSGgCohw-8" connectable="0" parent="cftk4s9rUOMCTSGgCohw-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="USB-C to Micro USB" vertex="1">
+          <mxGeometry relative="1" x="-0.0621" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cftk4s9rUOMCTSGgCohw-3" edge="1" parent="1" source="03z7qS6BstVAG2a4NXnQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.833;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="03z7qS6BstVAG2a4NXnQ-1">
           <mxGeometry relative="1" x="-0.0553" as="geometry">
             <Array as="points">
