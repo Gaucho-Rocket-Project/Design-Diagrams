@@ -4,11 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <UserObject label="" link="https://github.com/Gaucho-Rocket-Project/GSE_Comms" linkTarget="_blank" id="cftk4s9rUOMCTSGgCohw-12">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1">
-            <mxGeometry height="1700" width="3175" x="1275" y="3060.5" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="u-MaMD3fbFbareepJvIZ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="955" width="1425" x="1275" y="30" as="geometry" />
         </mxCell>
@@ -525,6 +520,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <UserObject label="" link="https://github.com/Gaucho-Rocket-Project/GSE_Comms" linkTarget="_blank" id="cftk4s9rUOMCTSGgCohw-12">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1">
+            <mxGeometry height="1700" width="3175" x="1275" y="3060.5" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
