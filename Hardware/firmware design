@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="12">
+<mxfile host="app.diagrams.net" pages="13">
   <diagram name="Design overview" id="HYnQSuLmimXBcVoQBz_I">
     <mxGraphModel dx="7542" dy="4868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -4559,6 +4559,211 @@
             <mxPoint x="-345.27" y="160.4" as="sourcePoint" />
             <mxPoint x="247" y="-157.93" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5IzdtZJx0ioRptuITbnx" name="Stratis GPS Setup">
+    <mxGraphModel dx="1813" dy="1987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eveYWJPmof27F7O25Prv-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;startSize=40;fontSize=25;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Ground System&lt;/span&gt;" vertex="1">
+          <mxGeometry height="216.39793038570085" width="934.0000000000001" x="389.98" y="1847.0020696142992" as="geometry">
+            <mxRectangle height="26" width="223" x="168.57" y="580" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-3" parent="eveYWJPmof27F7O25Prv-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" value="Ground Reciever" vertex="1">
+          <mxGeometry height="124.46" width="177.34" x="378.33" y="60.699999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-4" parent="eveYWJPmof27F7O25Prv-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" value="Computer/Phone" vertex="1">
+          <mxGeometry height="94.60018814675448" width="165.51898734177217" x="744.8354430379748" y="75.63285042333024" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-5" edge="1" parent="eveYWJPmof27F7O25Prv-1" source="eveYWJPmof27F7O25Prv-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="eveYWJPmof27F7O25Prv-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="236.45569620253167" y="137.7615239887112" as="sourcePoint" />
+            <mxPoint x="295.5696202531646" y="78.63640639698966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-6" connectable="0" parent="eveYWJPmof27F7O25Prv-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="RF Cable" vertex="1">
+          <mxGeometry relative="1" x="-0.3981" y="-3" as="geometry">
+            <mxPoint x="32" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-7" edge="1" parent="eveYWJPmof27F7O25Prv-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555.6708860759494" y="123.27587017873942" as="sourcePoint" />
+            <mxPoint x="744.8354430379748" y="123.27587017873942" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-8" connectable="0" parent="eveYWJPmof27F7O25Prv-7" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;" value="Bluetooth" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-56" connectable="0" parent="eveYWJPmof27F7O25Prv-1" style="group;fontSize=21;" value="" vertex="1">
+          <mxGeometry height="123.6660112888053" width="165.52443037974686" x="23.645569620253166" y="76.5670272812794" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-2" parent="eveYWJPmof27F7O25Prv-56" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" value="Antenna" vertex="1">
+          <mxGeometry height="94.60018814675448" width="165.51898734177217" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-49" connectable="0" parent="eveYWJPmof27F7O25Prv-56" style="group" value="" vertex="1">
+          <mxGeometry height="30" width="138.04000000000002" x="27.484430379746836" y="93.6660112888053" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-9" parent="eveYWJPmof27F7O25Prv-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Directional Antenna&lt;/font&gt;" vertex="1">
+          <mxGeometry height="17.23" width="165.52" x="-27.48" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-10" parent="eveYWJPmof27F7O25Prv-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;(Aim ground station at rocket)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="17.23" width="165.52" x="-27.48" y="17.759999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=light-dark(#006EAF,#5C79A3);fontColor=light-dark(#FFFFFF,#FFFFFF);fontSize=25;startSize=40;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Rocket&lt;/span&gt;" vertex="1">
+          <mxGeometry height="744.98" width="1068" x="317" y="744" as="geometry">
+            <mxRectangle height="26" width="223" x="168.57" y="580" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-15" parent="eveYWJPmof27F7O25Prv-11" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Antenna&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60.30761994355598" width="63.84303797468355" x="-31.98240506329114" y="563.0104703668861" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-25" parent="eveYWJPmof27F7O25Prv-11" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="11-12V Battery" vertex="1">
+          <mxGeometry height="67.69825964252117" width="85.1240506329114" x="1022.9975949367089" y="652.7412982126058" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-13" parent="eveYWJPmof27F7O25Prv-11" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=23;" value="STM32/MCU" vertex="1">
+          <mxGeometry height="165.51898734177217" width="165.51898734177217" x="455.17848101265827" y="322.3855409219191" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-17" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-12" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eveYWJPmof27F7O25Prv-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="529.036075949367" y="98.43458137347126" as="sourcePoint" />
+            <mxPoint x="718.369746835443" y="284.9855409219191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-18" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-16" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410.97734177215193" y="107.61018814675448" as="sourcePoint" />
+            <mxPoint x="520.9292405063292" y="107.61018814675448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-19" connectable="0" parent="eveYWJPmof27F7O25Prv-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="I2C" vertex="1">
+          <mxGeometry relative="1" x="-0.1291" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-20" parent="eveYWJPmof27F7O25Prv-11" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" value="MicroSD&lt;div&gt;Card&lt;br&gt;Reader&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94.58227848101266" width="94.58227848101266" x="765.6608860759494" y="357.860611476952" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-21" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="694.7241772151899" y="419.3507337723424" as="sourcePoint" />
+            <mxPoint x="694.7241772151899" y="547.060987770461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-26" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="778.073670886076" y="640.9162746942616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-27" parent="eveYWJPmof27F7O25Prv-11" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="Buck Converter" vertex="1">
+          <mxGeometry height="41.68320790216369" width="141.873417721519" x="802.9015189873418" y="665.7488240827846" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-28" edge="1" parent="eveYWJPmof27F7O25Prv-11" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1023.9875949999999" y="686.590428" as="sourcePoint" />
+            <mxPoint x="1106.7470886075948" y="425.7008466603951" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-29" parent="eveYWJPmof27F7O25Prv-11" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="LoRa Module" vertex="1">
+          <mxGeometry height="89.87017873941674" width="141.873417721519" x="56.003924050632946" y="548.2291909689558" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-30" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-29" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="529.2051898734178" y="497.83596425211664" as="sourcePoint" />
+            <mxPoint x="33" y="593.1600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-31" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-29" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0224" as="geometry">
+            <Array as="points">
+              <mxPoint x="537.94" y="595.52" />
+            </Array>
+            <mxPoint x="511.4710126582279" y="487.9358701787394" as="sourcePoint" />
+            <mxPoint x="412.88081012658233" y="606.1742803386642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-32" edge="1" parent="eveYWJPmof27F7O25Prv-11" source="eveYWJPmof27F7O25Prv-24" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="eveYWJPmof27F7O25Prv-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="322.30645569620253" y="286.91047036688616" as="sourcePoint" />
+            <mxPoint x="487.8254430379747" y="367.3206302916274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-33" connectable="0" parent="eveYWJPmof27F7O25Prv-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="I2C/SPI/CAN" vertex="1">
+          <mxGeometry relative="1" x="-0.3919" y="1" as="geometry">
+            <mxPoint x="15" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-36" parent="eveYWJPmof27F7O25Prv-11" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="Power to board" vertex="1">
+          <mxGeometry height="41.68320790216369" width="141.873417721519" x="601.9141772151899" y="665.7488240827846" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-38" parent="eveYWJPmof27F7O25Prv-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="Logs data to retrieve post launch" vertex="1">
+          <mxGeometry height="25" width="94.58" x="765.66" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-50" connectable="0" parent="eveYWJPmof27F7O25Prv-11" style="group;fontSize=20;" value="" vertex="1">
+          <mxGeometry height="94.60018814675446" width="112.31645569620252" x="481.77974683544306" y="175.41444967074318" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-16" parent="eveYWJPmof27F7O25Prv-50" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;GPS Module&lt;/font&gt;" vertex="1">
+          <mxGeometry height="94.60018814675448" width="112.31645569620254" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-35" parent="eveYWJPmof27F7O25Prv-50" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="MAX-M10S??" vertex="1">
+          <mxGeometry height="21.285042333019756" width="112.31645569620254" y="73.31826904985888" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-12" parent="eveYWJPmof27F7O25Prv-11" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="GNSS Antenna" vertex="1">
+          <mxGeometry height="41.68320790216369" width="141.873417721519" x="467.00556962025314" y="78.41702728127943" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-54" connectable="0" parent="eveYWJPmof27F7O25Prv-11" style="group;fontSize=18;" value="" vertex="1">
+          <mxGeometry height="28.62" width="127" x="537.01" y="122.10000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-37" parent="eveYWJPmof27F7O25Prv-54" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;(Omni-directional)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14.31" width="124.73" x="2.27" y="14.31" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-34" parent="eveYWJPmof27F7O25Prv-54" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="Sky-Facing&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Patch Antenna&lt;/span&gt;" vertex="1">
+          <mxGeometry height="14.31" width="127" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-24" parent="eveYWJPmof27F7O25Prv-11" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" value="Barometer&amp;nbsp;&lt;div&gt;+ IMU&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94.58227848101266" width="94.58227848101266" x="225.0015189873418" y="357.850611476952" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=6;" value="GNSS Satellite" vertex="1">
+          <mxGeometry height="94.60018814675448" width="271.9240506329114" x="760.0379746835443" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-40" edge="1" parent="1" source="eveYWJPmof27F7O25Prv-15" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eveYWJPmof27F7O25Prv-2" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2509" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="1337.2" />
+              <mxPoint x="243" y="1970.9" />
+            </Array>
+            <mxPoint x="429" y="1012.3518344308561" as="sourcePoint" />
+            <mxPoint x="342.29" y="1981.18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-41" edge="1" parent="1" source="eveYWJPmof27F7O25Prv-39" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;defaultLabelBackgroundColor=page;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="eveYWJPmof27F7O25Prv-12" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4826" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="830.2" />
+            </Array>
+            <mxPoint x="760.037975" y="222.00018800000012" as="sourcePoint" />
+            <mxPoint x="464.46835443037975" y="570.8383819379115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-42" connectable="0" parent="eveYWJPmof27F7O25Prv-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontSize=20;" value="RF Signal" vertex="1">
+          <mxGeometry relative="1" x="-0.5331" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-43" connectable="0" parent="eveYWJPmof27F7O25Prv-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontSize=20;" value="Receiving only" vertex="1">
+          <mxGeometry relative="1" x="0.101" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Wire Whip Antenna&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14.78" width="100.02" x="185" y="1307.01" as="geometry" />
+        </mxCell>
+        <mxCell id="eveYWJPmof27F7O25Prv-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="(Omni-directional)" vertex="1">
+          <mxGeometry height="14.78" width="100.02" x="185" y="1321.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
