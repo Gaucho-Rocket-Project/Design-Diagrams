@@ -3889,7 +3889,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f-f-TwqtYWJLcTzT5WSd" name="Halo Architecture">
-    <mxGraphModel dx="4255" dy="2433" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4374,10 +4374,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-2" parent="qt9z1yk0E_LcVoEsWvlW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="STM32H7" vertex="1">
-          <mxGeometry height="64.93" width="68" x="96" y="71.5" as="geometry" />
+          <mxGeometry height="64.93" width="68" x="108" y="121.5" as="geometry" />
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-4" parent="qt9z1yk0E_LcVoEsWvlW-1" style="whiteSpace=wrap;html=1;aspect=fixed;direction=south;" value="RTK Module" vertex="1">
-          <mxGeometry height="64.93" width="64.93" x="-29" y="71.5" as="geometry" />
+          <mxGeometry height="64.93" width="64.93" x="-17" y="121.5" as="geometry" />
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-5" edge="1" parent="qt9z1yk0E_LcVoEsWvlW-1" source="qt9z1yk0E_LcVoEsWvlW-4" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="qt9z1yk0E_LcVoEsWvlW-2" value="">
           <mxGeometry height="50" relative="1" width="50" x="0.1298" as="geometry">
@@ -4402,10 +4402,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-19" parent="qt9z1yk0E_LcVoEsWvlW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="IMU" vertex="1">
-          <mxGeometry height="64.93" width="68" x="217" y="47" as="geometry" />
+          <mxGeometry height="64.93" width="68" x="229" y="97" as="geometry" />
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-20" parent="qt9z1yk0E_LcVoEsWvlW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Barometer" vertex="1">
-          <mxGeometry height="64.93" width="68" x="229" y="136.43" as="geometry" />
+          <mxGeometry height="64.93" width="68" x="241" y="186.43" as="geometry" />
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-21" edge="1" parent="qt9z1yk0E_LcVoEsWvlW-1" source="qt9z1yk0E_LcVoEsWvlW-2" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="qt9z1yk0E_LcVoEsWvlW-19" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -4417,6 +4417,20 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="176" y="148.25" as="sourcePoint" />
             <mxPoint x="229" y="139.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BznOzELAza7P1qw77eK-1" parent="qt9z1yk0E_LcVoEsWvlW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="CM5" vertex="1">
+          <mxGeometry height="50.5" width="50.5" x="116.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2BznOzELAza7P1qw77eK-2" edge="1" parent="qt9z1yk0E_LcVoEsWvlW-1" source="2BznOzELAza7P1qw77eK-1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="qt9z1yk0E_LcVoEsWvlW-2" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1298" as="geometry">
+            <mxPoint x="63" y="132" as="sourcePoint" />
+            <mxPoint x="123" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BznOzELAza7P1qw77eK-3" connectable="0" parent="2BznOzELAza7P1qw77eK-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="SPI" vertex="1">
+          <mxGeometry relative="1" x="0.069" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qt9z1yk0E_LcVoEsWvlW-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;direction=south;" value="VCC Input" vertex="1">
